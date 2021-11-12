@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 import json
 
-## REQUESTS LIBRARY ## can alter requests to fit unique analysis needs ##
+## REQUESTS LIBRARY can alter requests to fit unique analysis needs ##
 # Constructing API:
 # https://api.census.gov/data/2019/acs/acs1/profile?get=NAME,DP05_0023E&for=county:005,047,061,081,085&in=state:36
 HOST = 'https://api.census.gov/data'
